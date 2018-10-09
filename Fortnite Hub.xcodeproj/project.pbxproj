@@ -16,6 +16,10 @@
 		9A62EAEB216CA7F200D0A9D5 /* Fortnite_HubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62EAEA216CA7F200D0A9D5 /* Fortnite_HubUITests.swift */; };
 		9A8E17A2216CAD4A00F805DC /* Burbank Big Condensed Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A8E17A1216CAD4A00F805DC /* Burbank Big Condensed Black.ttf */; };
 		9A8E17A4216CAED100F805DC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E17A3216CAED100F805DC /* MainVC.swift */; };
+		9A8E17A7216CBD6800F805DC /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E17A6216CBD6800F805DC /* UIViewX.swift */; };
+		9A8E17A9216CE17C00F805DC /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E17A8216CE17C00F805DC /* MenuBar.swift */; };
+		9A8E17AC216CE20700F805DC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E17AB216CE20700F805DC /* Extensions.swift */; };
+		9A8E17AE216CEB3200F805DC /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E17AD216CEB3200F805DC /* MenuCell.swift */; };
 		C46C4521C9DA3CAC76AE82AC /* Pods_Fortnite_HubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21212CE21137E6DB7144A638 /* Pods_Fortnite_HubUITests.framework */; };
 		F584F05B3A1FD40F6A5A38F0 /* Pods_Fortnite_HubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F6F288FC242F40504E8DAF /* Pods_Fortnite_HubTests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +62,10 @@
 		9A62EAEC216CA7F200D0A9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A8E17A1216CAD4A00F805DC /* Burbank Big Condensed Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Burbank Big Condensed Black.ttf"; sourceTree = "<group>"; };
 		9A8E17A3216CAED100F805DC /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		9A8E17A6216CBD6800F805DC /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		9A8E17A8216CE17C00F805DC /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		9A8E17AB216CE20700F805DC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9A8E17AD216CEB3200F805DC /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		C048B31D0F6C999C5E5B1AEF /* Pods-Fortnite Hub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fortnite Hub.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fortnite Hub/Pods-Fortnite Hub.release.xcconfig"; sourceTree = "<group>"; };
 		E7C0F06E9F1CA082BF43DDA6 /* Pods-Fortnite HubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fortnite HubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fortnite HubTests/Pods-Fortnite HubTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB026BA7958A6F0FEB980892 /* Pods-Fortnite HubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fortnite HubUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fortnite HubUITests/Pods-Fortnite HubUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +124,8 @@
 		9A62EAC6216CA7F000D0A9D5 /* Fortnite Hub */ = {
 			isa = PBXGroup;
 			children = (
+				9A8E17AA216CE1F300F805DC /* Extenions */,
+				9A8E17A5216CBD5200F805DC /* Designables */,
 				9A8E179F216CAA1A00F805DC /* Lunch */,
 				9A8E1799216CA9B000F805DC /* Main */,
 				9A8E1798216CA99B00F805DC /* Network */,
@@ -191,6 +201,8 @@
 		9A8E179B216CA9BE00F805DC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9A8E17A8216CE17C00F805DC /* MenuBar.swift */,
+				9A8E17AD216CEB3200F805DC /* MenuCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,6 +243,22 @@
 				9A8E17A1216CAD4A00F805DC /* Burbank Big Condensed Black.ttf */,
 			);
 			path = Fons;
+			sourceTree = "<group>";
+		};
+		9A8E17A5216CBD5200F805DC /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				9A8E17A6216CBD6800F805DC /* UIViewX.swift */,
+			);
+			path = Designables;
+			sourceTree = "<group>";
+		};
+		9A8E17AA216CE1F300F805DC /* Extenions */ = {
+			isa = PBXGroup;
+			children = (
+				9A8E17AB216CE20700F805DC /* Extensions.swift */,
+			);
+			path = Extenions;
 			sourceTree = "<group>";
 		};
 		BBA3AAD7448BAB2AAC8CB373 /* Pods */ = {
@@ -471,8 +499,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A8E17AC216CE20700F805DC /* Extensions.swift in Sources */,
 				9A62EAC8216CA7F000D0A9D5 /* AppDelegate.swift in Sources */,
+				9A8E17AE216CEB3200F805DC /* MenuCell.swift in Sources */,
 				9A8E17A4216CAED100F805DC /* MainVC.swift in Sources */,
+				9A8E17A9216CE17C00F805DC /* MenuBar.swift in Sources */,
+				9A8E17A7216CBD6800F805DC /* UIViewX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
