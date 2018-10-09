@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6561A7389513FBE5CFDB0813 /* Pods_Fortnite_Hub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545A34184034BB4B078CDE13 /* Pods_Fortnite_Hub.framework */; };
 		9A62EAC8216CA7F000D0A9D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62EAC7216CA7F000D0A9D5 /* AppDelegate.swift */; };
-		9A62EACA216CA7F000D0A9D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62EAC9216CA7F000D0A9D5 /* ViewController.swift */; };
 		9A62EACD216CA7F000D0A9D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A62EACB216CA7F000D0A9D5 /* Main.storyboard */; };
-		9A62EAD0216CA7F000D0A9D5 /* Fortnite_Hub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A62EACE216CA7F000D0A9D5 /* Fortnite_Hub.xcdatamodeld */; };
 		9A62EAD2216CA7F200D0A9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A62EAD1216CA7F200D0A9D5 /* Assets.xcassets */; };
 		9A62EAD5216CA7F200D0A9D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A62EAD3216CA7F200D0A9D5 /* LaunchScreen.storyboard */; };
 		9A62EAE0216CA7F200D0A9D5 /* Fortnite_HubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62EADF216CA7F200D0A9D5 /* Fortnite_HubTests.swift */; };
 		9A62EAEB216CA7F200D0A9D5 /* Fortnite_HubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62EAEA216CA7F200D0A9D5 /* Fortnite_HubUITests.swift */; };
+		9A8E17A2216CAD4A00F805DC /* Burbank Big Condensed Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A8E17A1216CAD4A00F805DC /* Burbank Big Condensed Black.ttf */; };
+		9A8E17A4216CAED100F805DC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E17A3216CAED100F805DC /* MainVC.swift */; };
+		C46C4521C9DA3CAC76AE82AC /* Pods_Fortnite_HubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21212CE21137E6DB7144A638 /* Pods_Fortnite_HubUITests.framework */; };
+		F584F05B3A1FD40F6A5A38F0 /* Pods_Fortnite_HubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F6F288FC242F40504E8DAF /* Pods_Fortnite_HubTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03511FDDFEEBC580F2C9CA50 /* Pods-Fortnite HubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fortnite HubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fortnite HubTests/Pods-Fortnite HubTests.release.xcconfig"; sourceTree = "<group>"; };
+		10C6008426E292C3CF5FFC78 /* Pods-Fortnite HubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fortnite HubUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fortnite HubUITests/Pods-Fortnite HubUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		21212CE21137E6DB7144A638 /* Pods_Fortnite_HubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fortnite_HubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F6F288FC242F40504E8DAF /* Pods_Fortnite_HubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fortnite_HubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		545A34184034BB4B078CDE13 /* Pods_Fortnite_Hub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fortnite_Hub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		673D5D5139F73D088CB5DA29 /* Pods-Fortnite Hub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fortnite Hub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fortnite Hub/Pods-Fortnite Hub.debug.xcconfig"; sourceTree = "<group>"; };
 		9A62EAC4216CA7F000D0A9D5 /* Fortnite Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortnite Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A62EAC7216CA7F000D0A9D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A62EAC9216CA7F000D0A9D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A62EACC216CA7F000D0A9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A62EACF216CA7F000D0A9D5 /* Fortnite_Hub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fortnite_Hub.xcdatamodel; sourceTree = "<group>"; };
 		9A62EAD1216CA7F200D0A9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A62EAD4216CA7F200D0A9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A62EAD6216CA7F200D0A9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		9A62EAE6216CA7F200D0A9D5 /* Fortnite HubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortnite HubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A62EAEA216CA7F200D0A9D5 /* Fortnite_HubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortnite_HubUITests.swift; sourceTree = "<group>"; };
 		9A62EAEC216CA7F200D0A9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8E17A1216CAD4A00F805DC /* Burbank Big Condensed Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Burbank Big Condensed Black.ttf"; sourceTree = "<group>"; };
+		9A8E17A3216CAED100F805DC /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		C048B31D0F6C999C5E5B1AEF /* Pods-Fortnite Hub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fortnite Hub.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fortnite Hub/Pods-Fortnite Hub.release.xcconfig"; sourceTree = "<group>"; };
+		E7C0F06E9F1CA082BF43DDA6 /* Pods-Fortnite HubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fortnite HubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fortnite HubTests/Pods-Fortnite HubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB026BA7958A6F0FEB980892 /* Pods-Fortnite HubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fortnite HubUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fortnite HubUITests/Pods-Fortnite HubUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6561A7389513FBE5CFDB0813 /* Pods_Fortnite_Hub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F584F05B3A1FD40F6A5A38F0 /* Pods_Fortnite_HubTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46C4521C9DA3CAC76AE82AC /* Pods_Fortnite_HubUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				9A62EADE216CA7F200D0A9D5 /* Fortnite HubTests */,
 				9A62EAE9216CA7F200D0A9D5 /* Fortnite HubUITests */,
 				9A62EAC5216CA7F000D0A9D5 /* Products */,
+				BBA3AAD7448BAB2AAC8CB373 /* Pods */,
+				D5AA3F4166396076FD0B2B0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +116,11 @@
 		9A62EAC6216CA7F000D0A9D5 /* Fortnite Hub */ = {
 			isa = PBXGroup;
 			children = (
-				9A62EAC7216CA7F000D0A9D5 /* AppDelegate.swift */,
-				9A62EAC9216CA7F000D0A9D5 /* ViewController.swift */,
-				9A62EACB216CA7F000D0A9D5 /* Main.storyboard */,
-				9A62EAD1216CA7F200D0A9D5 /* Assets.xcassets */,
-				9A62EAD3216CA7F200D0A9D5 /* LaunchScreen.storyboard */,
-				9A62EAD6216CA7F200D0A9D5 /* Info.plist */,
-				9A62EACE216CA7F000D0A9D5 /* Fortnite_Hub.xcdatamodeld */,
+				9A8E179F216CAA1A00F805DC /* Lunch */,
+				9A8E1799216CA9B000F805DC /* Main */,
+				9A8E1798216CA99B00F805DC /* Network */,
+				9A8E1797216CA98800F805DC /* AppDelegate */,
+				9A8E1796216CA97800F805DC /* Resources */,
 			);
 			path = "Fortnite Hub";
 			sourceTree = "<group>";
@@ -128,6 +143,119 @@
 			path = "Fortnite HubUITests";
 			sourceTree = "<group>";
 		};
+		9A8E1796216CA97800F805DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A8E17A0216CAD3700F805DC /* Fons */,
+				9A62EAD1216CA7F200D0A9D5 /* Assets.xcassets */,
+				9A62EAD6216CA7F200D0A9D5 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9A8E1797216CA98800F805DC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9A62EAC7216CA7F000D0A9D5 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9A8E1798216CA99B00F805DC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9A8E1799216CA9B000F805DC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9A8E179E216CA9E000F805DC /* Storyboards */,
+				9A8E179D216CA9CD00F805DC /* Models */,
+				9A8E179C216CA9C500F805DC /* View Models */,
+				9A8E179B216CA9BE00F805DC /* Views */,
+				9A8E179A216CA9B700F805DC /* Controllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9A8E179A216CA9B700F805DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A8E17A3216CAED100F805DC /* MainVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A8E179B216CA9BE00F805DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A8E179C216CA9C500F805DC /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		9A8E179D216CA9CD00F805DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A8E179E216CA9E000F805DC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9A62EACB216CA7F000D0A9D5 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9A8E179F216CAA1A00F805DC /* Lunch */ = {
+			isa = PBXGroup;
+			children = (
+				9A62EAD3216CA7F200D0A9D5 /* LaunchScreen.storyboard */,
+			);
+			path = Lunch;
+			sourceTree = "<group>";
+		};
+		9A8E17A0216CAD3700F805DC /* Fons */ = {
+			isa = PBXGroup;
+			children = (
+				9A8E17A1216CAD4A00F805DC /* Burbank Big Condensed Black.ttf */,
+			);
+			path = Fons;
+			sourceTree = "<group>";
+		};
+		BBA3AAD7448BAB2AAC8CB373 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				673D5D5139F73D088CB5DA29 /* Pods-Fortnite Hub.debug.xcconfig */,
+				C048B31D0F6C999C5E5B1AEF /* Pods-Fortnite Hub.release.xcconfig */,
+				E7C0F06E9F1CA082BF43DDA6 /* Pods-Fortnite HubTests.debug.xcconfig */,
+				03511FDDFEEBC580F2C9CA50 /* Pods-Fortnite HubTests.release.xcconfig */,
+				10C6008426E292C3CF5FFC78 /* Pods-Fortnite HubUITests.debug.xcconfig */,
+				EB026BA7958A6F0FEB980892 /* Pods-Fortnite HubUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5AA3F4166396076FD0B2B0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				545A34184034BB4B078CDE13 /* Pods_Fortnite_Hub.framework */,
+				37F6F288FC242F40504E8DAF /* Pods_Fortnite_HubTests.framework */,
+				21212CE21137E6DB7144A638 /* Pods_Fortnite_HubUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A62EAEF216CA7F200D0A9D5 /* Build configuration list for PBXNativeTarget "Fortnite Hub" */;
 			buildPhases = (
+				8E6F5A471EEDFF09F9679538 /* [CP] Check Pods Manifest.lock */,
 				9A62EAC0216CA7F000D0A9D5 /* Sources */,
 				9A62EAC1216CA7F000D0A9D5 /* Frameworks */,
 				9A62EAC2216CA7F000D0A9D5 /* Resources */,
+				66A80E3F35B3F5DA3CA31939 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A62EAF2216CA7F200D0A9D5 /* Build configuration list for PBXNativeTarget "Fortnite HubTests" */;
 			buildPhases = (
+				650F1710901C767F561B4327 /* [CP] Check Pods Manifest.lock */,
 				9A62EAD7216CA7F200D0A9D5 /* Sources */,
 				9A62EAD8216CA7F200D0A9D5 /* Frameworks */,
 				9A62EAD9216CA7F200D0A9D5 /* Resources */,
@@ -170,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A62EAF5216CA7F200D0A9D5 /* Build configuration list for PBXNativeTarget "Fortnite HubUITests" */;
 			buildPhases = (
+				6EADEFE7111320FE42DBC11F /* [CP] Check Pods Manifest.lock */,
 				9A62EAE2216CA7F200D0A9D5 /* Sources */,
 				9A62EAE3216CA7F200D0A9D5 /* Frameworks */,
 				9A62EAE4216CA7F200D0A9D5 /* Resources */,
@@ -234,6 +366,7 @@
 			files = (
 				9A62EAD5216CA7F200D0A9D5 /* LaunchScreen.storyboard in Resources */,
 				9A62EAD2216CA7F200D0A9D5 /* Assets.xcassets in Resources */,
+				9A8E17A2216CAD4A00F805DC /* Burbank Big Condensed Black.ttf in Resources */,
 				9A62EACD216CA7F000D0A9D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +387,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		650F1710901C767F561B4327 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fortnite HubTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66A80E3F35B3F5DA3CA31939 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fortnite Hub/Pods-Fortnite Hub-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GSMessages/GSMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fortnite Hub/Pods-Fortnite Hub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EADEFE7111320FE42DBC11F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fortnite HubUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E6F5A471EEDFF09F9679538 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fortnite Hub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A62EAC0216CA7F000D0A9D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A62EACA216CA7F000D0A9D5 /* ViewController.swift in Sources */,
 				9A62EAC8216CA7F000D0A9D5 /* AppDelegate.swift in Sources */,
-				9A62EAD0216CA7F000D0A9D5 /* Fortnite_Hub.xcdatamodeld in Sources */,
+				9A8E17A4216CAED100F805DC /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,11 +645,12 @@
 		};
 		9A62EAF0216CA7F200D0A9D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 673D5D5139F73D088CB5DA29 /* Pods-Fortnite Hub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2K6N9E42FC;
-				INFOPLIST_FILE = "Fortnite Hub/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Fortnite Hub/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +664,12 @@
 		};
 		9A62EAF1216CA7F200D0A9D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C048B31D0F6C999C5E5B1AEF /* Pods-Fortnite Hub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2K6N9E42FC;
-				INFOPLIST_FILE = "Fortnite Hub/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Fortnite Hub/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +683,7 @@
 		};
 		9A62EAF3216CA7F200D0A9D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7C0F06E9F1CA082BF43DDA6 /* Pods-Fortnite HubTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +705,7 @@
 		};
 		9A62EAF4216CA7F200D0A9D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03511FDDFEEBC580F2C9CA50 /* Pods-Fortnite HubTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +727,7 @@
 		};
 		9A62EAF6216CA7F200D0A9D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C6008426E292C3CF5FFC78 /* Pods-Fortnite HubUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +748,7 @@
 		};
 		9A62EAF7216CA7F200D0A9D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB026BA7958A6F0FEB980892 /* Pods-Fortnite HubUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -590,19 +807,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9A62EACE216CA7F000D0A9D5 /* Fortnite_Hub.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9A62EACF216CA7F000D0A9D5 /* Fortnite_Hub.xcdatamodel */,
-			);
-			currentVersion = 9A62EACF216CA7F000D0A9D5 /* Fortnite_Hub.xcdatamodel */;
-			path = Fortnite_Hub.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9A62EABC216CA7F000D0A9D5 /* Project object */;
 }
