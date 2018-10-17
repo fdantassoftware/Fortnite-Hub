@@ -8,12 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		6561A7389513FBE5CFDB0813 /* Pods_Fortnite_Hub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545A34184034BB4B078CDE13 /* Pods_Fortnite_Hub.framework */; };
+		9A10A6EF217496E6001DAE99 /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10A6EE217496E6001DAE99 /* Leaderboard.swift */; };
+		9A10A6F121749850001DAE99 /* LeaderBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10A6F021749850001DAE99 /* LeaderBoardVC.swift */; };
+		9A10A6F321749A42001DAE99 /* LeaderBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10A6F221749A42001DAE99 /* LeaderBoardCell.swift */; };
+		9A10A6F52174A202001DAE99 /* LeaderBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10A6F42174A202001DAE99 /* LeaderBoardViewModel.swift */; };
+		9A10A6F72174A643001DAE99 /* LeaderBoardResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10A6F62174A643001DAE99 /* LeaderBoardResult.swift */; };
+		9A10A6F92174AD63001DAE99 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10A6F82174AD63001DAE99 /* NewsCell.swift */; };
+		9A10A6FB2174B10D001DAE99 /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10A6FA2174B10D001DAE99 /* NewsVC.swift */; };
+		9A10A6FD2174B21F001DAE99 /* NewsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10A6FC2174B21F001DAE99 /* NewsResult.swift */; };
+		9A10A6FF2174B262001DAE99 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10A6FE2174B262001DAE99 /* News.swift */; };
+		9A10A7012174B597001DAE99 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10A7002174B597001DAE99 /* NewsViewModel.swift */; };
+		9A10A7032174C314001DAE99 /* StoreResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10A7022174C314001DAE99 /* StoreResults.swift */; };
+		9A10A7062174D1AA001DAE99 /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10A7052174D1AA001DAE99 /* StoreVC.swift */; };
+		9A10A7082174D893001DAE99 /* StoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10A7072174D893001DAE99 /* StoreCell.swift */; };
+		9A26EF33216F5FFA006559D1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A26EF32216F5FFA006559D1 /* API.swift */; };
+		9A26EF35216F6686006559D1 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A26EF34216F6686006559D1 /* Request.swift */; };
+		9A26EF37216F6812006559D1 /* PlayerDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A26EF36216F6812006559D1 /* PlayerDataViewModel.swift */; };
+		9A26EF39216F682B006559D1 /* PlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A26EF38216F682B006559D1 /* PlayerData.swift */; };
+		9A26EF3B216F68D1006559D1 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A26EF3A216F68D1006559D1 /* Stats.swift */; };
+		9A26EF3D216F6A02006559D1 /* Totals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A26EF3C216F6A02006559D1 /* Totals.swift */; };
+		9A566531216F85EF00E6F382 /* PlayerID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A566530216F85EF00E6F382 /* PlayerID.swift */; };
+		9A566533216F9A4600E6F382 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A566532216F9A4600E6F382 /* Mode.swift */; };
+		9A5E8708217745FB00881F05 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5E8707217745FB00881F05 /* UIButtonX.swift */; };
+		9A5E870A21774A5500881F05 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5E870921774A5500881F05 /* Error.swift */; };
+		9A5E870C2177666900881F05 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5E870B2177666900881F05 /* SettingsVC.swift */; };
 		9A62EAC8216CA7F000D0A9D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62EAC7216CA7F000D0A9D5 /* AppDelegate.swift */; };
 		9A62EACD216CA7F000D0A9D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A62EACB216CA7F000D0A9D5 /* Main.storyboard */; };
 		9A62EAD2216CA7F200D0A9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A62EAD1216CA7F200D0A9D5 /* Assets.xcassets */; };
 		9A62EAD5216CA7F200D0A9D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A62EAD3216CA7F200D0A9D5 /* LaunchScreen.storyboard */; };
 		9A62EAE0216CA7F200D0A9D5 /* Fortnite_HubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62EADF216CA7F200D0A9D5 /* Fortnite_HubTests.swift */; };
 		9A62EAEB216CA7F200D0A9D5 /* Fortnite_HubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62EAEA216CA7F200D0A9D5 /* Fortnite_HubUITests.swift */; };
+		9A7CE1A2216E20E90088DE56 /* StatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE1A1216E20E90088DE56 /* StatsCell.swift */; };
+		9A7E65DC21762C6000345E58 /* StoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E65DB21762C6000345E58 /* StoreViewModel.swift */; };
+		9A7E65DE217635FE00345E58 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E65DD217635FE00345E58 /* UITextFieldX.swift */; };
 		9A8E17A2216CAD4A00F805DC /* Burbank Big Condensed Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A8E17A1216CAD4A00F805DC /* Burbank Big Condensed Black.ttf */; };
 		9A8E17A4216CAED100F805DC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E17A3216CAED100F805DC /* MainVC.swift */; };
 		9A8E17A7216CBD6800F805DC /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E17A6216CBD6800F805DC /* UIViewX.swift */; };
@@ -48,6 +75,30 @@
 		37F6F288FC242F40504E8DAF /* Pods_Fortnite_HubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fortnite_HubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		545A34184034BB4B078CDE13 /* Pods_Fortnite_Hub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fortnite_Hub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		673D5D5139F73D088CB5DA29 /* Pods-Fortnite Hub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fortnite Hub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fortnite Hub/Pods-Fortnite Hub.debug.xcconfig"; sourceTree = "<group>"; };
+		9A10A6EE217496E6001DAE99 /* Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaderboard.swift; sourceTree = "<group>"; };
+		9A10A6F021749850001DAE99 /* LeaderBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardVC.swift; sourceTree = "<group>"; };
+		9A10A6F221749A42001DAE99 /* LeaderBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardCell.swift; sourceTree = "<group>"; };
+		9A10A6F42174A202001DAE99 /* LeaderBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewModel.swift; sourceTree = "<group>"; };
+		9A10A6F62174A643001DAE99 /* LeaderBoardResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardResult.swift; sourceTree = "<group>"; };
+		9A10A6F82174AD63001DAE99 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		9A10A6FA2174B10D001DAE99 /* NewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
+		9A10A6FC2174B21F001DAE99 /* NewsResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResult.swift; sourceTree = "<group>"; };
+		9A10A6FE2174B262001DAE99 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		9A10A7002174B597001DAE99 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		9A10A7022174C314001DAE99 /* StoreResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreResults.swift; sourceTree = "<group>"; };
+		9A10A7052174D1AA001DAE99 /* StoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
+		9A10A7072174D893001DAE99 /* StoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCell.swift; sourceTree = "<group>"; };
+		9A26EF32216F5FFA006559D1 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		9A26EF34216F6686006559D1 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		9A26EF36216F6812006559D1 /* PlayerDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDataViewModel.swift; sourceTree = "<group>"; };
+		9A26EF38216F682B006559D1 /* PlayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerData.swift; sourceTree = "<group>"; };
+		9A26EF3A216F68D1006559D1 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		9A26EF3C216F6A02006559D1 /* Totals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Totals.swift; sourceTree = "<group>"; };
+		9A566530216F85EF00E6F382 /* PlayerID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerID.swift; sourceTree = "<group>"; };
+		9A566532216F9A4600E6F382 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
+		9A5E8707217745FB00881F05 /* UIButtonX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		9A5E870921774A5500881F05 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		9A5E870B2177666900881F05 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		9A62EAC4216CA7F000D0A9D5 /* Fortnite Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortnite Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A62EAC7216CA7F000D0A9D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A62EACC216CA7F000D0A9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +111,9 @@
 		9A62EAE6216CA7F200D0A9D5 /* Fortnite HubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortnite HubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A62EAEA216CA7F200D0A9D5 /* Fortnite_HubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortnite_HubUITests.swift; sourceTree = "<group>"; };
 		9A62EAEC216CA7F200D0A9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7CE1A1216E20E90088DE56 /* StatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCell.swift; sourceTree = "<group>"; };
+		9A7E65DB21762C6000345E58 /* StoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewModel.swift; sourceTree = "<group>"; };
+		9A7E65DD217635FE00345E58 /* UITextFieldX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
 		9A8E17A1216CAD4A00F805DC /* Burbank Big Condensed Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Burbank Big Condensed Black.ttf"; sourceTree = "<group>"; };
 		9A8E17A3216CAED100F805DC /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		9A8E17A6216CBD6800F805DC /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
@@ -174,6 +228,8 @@
 		9A8E1798216CA99B00F805DC /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				9A26EF32216F5FFA006559D1 /* API.swift */,
+				9A26EF34216F6686006559D1 /* Request.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -194,6 +250,10 @@
 			isa = PBXGroup;
 			children = (
 				9A8E17A3216CAED100F805DC /* MainVC.swift */,
+				9A10A6F021749850001DAE99 /* LeaderBoardVC.swift */,
+				9A10A6FA2174B10D001DAE99 /* NewsVC.swift */,
+				9A10A7052174D1AA001DAE99 /* StoreVC.swift */,
+				9A5E870B2177666900881F05 /* SettingsVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -203,6 +263,10 @@
 			children = (
 				9A8E17A8216CE17C00F805DC /* MenuBar.swift */,
 				9A8E17AD216CEB3200F805DC /* MenuCell.swift */,
+				9A7CE1A1216E20E90088DE56 /* StatsCell.swift */,
+				9A10A6F221749A42001DAE99 /* LeaderBoardCell.swift */,
+				9A10A6F82174AD63001DAE99 /* NewsCell.swift */,
+				9A10A7072174D893001DAE99 /* StoreCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +274,10 @@
 		9A8E179C216CA9C500F805DC /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				9A26EF36216F6812006559D1 /* PlayerDataViewModel.swift */,
+				9A10A6F42174A202001DAE99 /* LeaderBoardViewModel.swift */,
+				9A10A7002174B597001DAE99 /* NewsViewModel.swift */,
+				9A7E65DB21762C6000345E58 /* StoreViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -217,6 +285,17 @@
 		9A8E179D216CA9CD00F805DC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9A26EF38216F682B006559D1 /* PlayerData.swift */,
+				9A26EF3A216F68D1006559D1 /* Stats.swift */,
+				9A26EF3C216F6A02006559D1 /* Totals.swift */,
+				9A566530216F85EF00E6F382 /* PlayerID.swift */,
+				9A566532216F9A4600E6F382 /* Mode.swift */,
+				9A10A6EE217496E6001DAE99 /* Leaderboard.swift */,
+				9A10A6F62174A643001DAE99 /* LeaderBoardResult.swift */,
+				9A10A6FC2174B21F001DAE99 /* NewsResult.swift */,
+				9A10A6FE2174B262001DAE99 /* News.swift */,
+				9A10A7022174C314001DAE99 /* StoreResults.swift */,
+				9A5E870921774A5500881F05 /* Error.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -249,6 +328,8 @@
 			isa = PBXGroup;
 			children = (
 				9A8E17A6216CBD6800F805DC /* UIViewX.swift */,
+				9A7E65DD217635FE00345E58 /* UITextFieldX.swift */,
+				9A5E8707217745FB00881F05 /* UIButtonX.swift */,
 			);
 			path = Designables;
 			sourceTree = "<group>";
@@ -441,12 +522,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Fortnite Hub/Pods-Fortnite Hub-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/GSMessages/GSMessages.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSMessages.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
@@ -500,11 +585,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A8E17AC216CE20700F805DC /* Extensions.swift in Sources */,
+				9A5E8708217745FB00881F05 /* UIButtonX.swift in Sources */,
+				9A10A6F321749A42001DAE99 /* LeaderBoardCell.swift in Sources */,
+				9A10A6EF217496E6001DAE99 /* Leaderboard.swift in Sources */,
+				9A10A7082174D893001DAE99 /* StoreCell.swift in Sources */,
+				9A10A6FD2174B21F001DAE99 /* NewsResult.swift in Sources */,
+				9A26EF3B216F68D1006559D1 /* Stats.swift in Sources */,
+				9A10A6F121749850001DAE99 /* LeaderBoardVC.swift in Sources */,
+				9A10A6FB2174B10D001DAE99 /* NewsVC.swift in Sources */,
 				9A62EAC8216CA7F000D0A9D5 /* AppDelegate.swift in Sources */,
 				9A8E17AE216CEB3200F805DC /* MenuCell.swift in Sources */,
+				9A5E870C2177666900881F05 /* SettingsVC.swift in Sources */,
+				9A26EF3D216F6A02006559D1 /* Totals.swift in Sources */,
+				9A7CE1A2216E20E90088DE56 /* StatsCell.swift in Sources */,
 				9A8E17A4216CAED100F805DC /* MainVC.swift in Sources */,
+				9A10A7012174B597001DAE99 /* NewsViewModel.swift in Sources */,
+				9A10A6F92174AD63001DAE99 /* NewsCell.swift in Sources */,
+				9A5E870A21774A5500881F05 /* Error.swift in Sources */,
+				9A10A7032174C314001DAE99 /* StoreResults.swift in Sources */,
+				9A566531216F85EF00E6F382 /* PlayerID.swift in Sources */,
 				9A8E17A9216CE17C00F805DC /* MenuBar.swift in Sources */,
+				9A7E65DE217635FE00345E58 /* UITextFieldX.swift in Sources */,
+				9A566533216F9A4600E6F382 /* Mode.swift in Sources */,
+				9A10A7062174D1AA001DAE99 /* StoreVC.swift in Sources */,
+				9A26EF33216F5FFA006559D1 /* API.swift in Sources */,
+				9A26EF39216F682B006559D1 /* PlayerData.swift in Sources */,
+				9A10A6FF2174B262001DAE99 /* News.swift in Sources */,
+				9A26EF37216F6812006559D1 /* PlayerDataViewModel.swift in Sources */,
+				9A26EF35216F6686006559D1 /* Request.swift in Sources */,
+				9A7E65DC21762C6000345E58 /* StoreViewModel.swift in Sources */,
 				9A8E17A7216CBD6800F805DC /* UIViewX.swift in Sources */,
+				9A10A6F72174A643001DAE99 /* LeaderBoardResult.swift in Sources */,
+				9A10A6F52174A202001DAE99 /* LeaderBoardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,7 +799,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dantas.best-movies.Fortnite-Hub";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fortnite-hub-dantas";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -706,7 +818,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dantas.best-movies.Fortnite-Hub";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fortnite-hub-dantas";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

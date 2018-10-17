@@ -1,0 +1,6 @@
+framework module Pods_Fortnite_HubTests {
+  umbrella header "Pods-Fortnite HubTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

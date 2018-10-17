@@ -16,12 +16,20 @@ class MenuCell: UICollectionViewCell {
     override var isHighlighted: Bool {
         didSet {
             modeLabel.textColor = isHighlighted ? UIColor.white  : UIColor().setRGB(r: 180, g: 180, b: 180)
+           
         }
     }
     
     override var isSelected: Bool {
         didSet {
+
             modeLabel.textColor = isSelected ? UIColor.white : UIColor().setRGB(r: 180, g: 180, b: 180)
+            
+            
+            // 81 17 111
+            
+            
+            // 39 17 59
         }
     }
     
